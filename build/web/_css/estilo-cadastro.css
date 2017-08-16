@@ -1,0 +1,88 @@
+.area-cadastro{
+    margin-top: 110px;
+}
+
+.formCadastro label{
+    font-family: Arial;
+    font-size: 14pt;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.formEntrar label{
+    font-family: Arial;
+    font-size: 14pt;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formCadastrar label{
+    font-family: Arial;
+    font-size: 14pt;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin: auto;
+    padding: 0px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+
+
+form h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+input, select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+#sexo{
+    width: 20%
+}
+
+#btnEnviar{
+    background: gray;
+    color:white;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+#btnEnviar:hover{
+    cursor: pointer;
+}
+
+fieldset{
+    padding: 5px;
+}
+
+legend{
+    font-size: 14pt;
+    font-family: Arial;
+    font-weight: bold;
+    color: black
+}
+
+fieldset{
+    border: 2px solid gray;
+}
