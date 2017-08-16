@@ -1,0 +1,186 @@
+body{
+    background-color: gainsboro;
+    margin: 0px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+.linha::after .area-rodape::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1,h2,h3{
+    font-family: Tahoma;
+}
+header{
+    position: fixed;
+    background-color: rgba(105,105,105,0.5);
+    border-bottom: 2px solid white;
+}
+#t{
+    margin: auto;
+}
+
+section{
+    background-color: gainsboro;
+}
+section h2{
+    font-family: "Monotype Corsiva";
+    font-size: 22pt;
+}
+section p{
+    font-family: Arial;
+    font-size: 12pt;
+}
+.area-texto{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    text-align: justify;
+    background-color: gray;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+footer h3{
+    margin: 0px;
+}
+.final-rodape{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 12pt;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    margin: 0px;
+}
+
+nav{
+
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: right;
+}
+nav ul{
+    height: auto;
+    padding: 15px 0px;
+    margin: 0px;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+
+.descricao01,.descricao02,.descricao03{
+    background-color: gray;
+    padding: 10px 10px 15px 10px;
+    margin: 0px;
+    text-align: center;
+
+}
+.descricao01 h3,.descricao02 h3,.descricao03 h3{
+    font-size: 18pt;
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+}
+.descricao01 p,.descricao02 p,.descricao03 p{
+    text-align: justify;
+}
+.descricao01 a,.descricao02 a,.descricao03 a{
+    text-decoration: none;
+    font-family: "Monotype Corsiva";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: gray;
+    border-radius: 20px 10px;
+    padding: 7px;
+}
+
+.descricao01 a:hover,.descricao02 a:hover,.descricao03 a:hover{
+    background-color: lightsteelblue;
+    transition: background-color 0.5s;
+}
+
+label{
+    font-size: 26px;
+    display: none;
+}
+
+#icon-menu{
+    display: none;
+    float: right;
+}
+
+@media all and (max-width: 480px){
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    nav{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+    }
+    nav li{
+        display: block;
+        border-bottom: 2px solid black;
+    }
+    nav a{
+        display: block;
+        padding: 10px;
+
+        margin: 0px;
+    }
+    #icon-menu:checked + nav{
+        display: block;
+    }
+
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+@media all and (min-width: 768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
